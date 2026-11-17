@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED",
+  "files_modified": [
+    "docs/ANALYSIS_MODE.md"
+  ],
+  "commands_run": [
+    "codex exec --sandbox read-only - <stdin>"
+  ],
+  "summary": "Updated verification documentation with the supplied exit-2 collection failure, zero executed tests, baseline exclusion, and required rerun commands. Preserved implementation and tests. P1 cannot be resolved under the explicit no-tools instruction: no tests or syntax checks were executed, and no verification success is claimed. Director must execute the listed checks and supply actual results.",
+  "error": null
+}

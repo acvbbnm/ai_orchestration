@@ -1,0 +1,140 @@
+{
+  "run_id": "RUN-261117232513-2D1EC4F77CE54D67AAA6656D2B45733E",
+  "records": [
+    {
+      "agent": "BUILDER",
+      "provider": "anthropic",
+      "runtime": "claude-cli",
+      "model": "antigravity-cli",
+      "executable": "C:\\Users\\user\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\npm\\claude.cmd",
+      "invocation_command": "claude --print --output-format json",
+      "version": "2.1.220 (Claude Code)",
+      "exit_code": 0,
+      "duration_sec": 291.091,
+      "authentication_mode": "subscription",
+      "api_key_policy": "disabled",
+      "api_key_used": false,
+      "observed_fields": [
+        "executable",
+        "version",
+        "exit_code",
+        "duration_sec",
+        "invocation_command"
+      ],
+      "declared_fields": [
+        "authentication_mode",
+        "api_key_policy",
+        "api_key_used"
+      ],
+      "timestamp": "2026-11-17T14:30:15.682647"
+    },
+    {
+      "agent": "BUILDER",
+      "provider": "openai",
+      "runtime": "codex-cli",
+      "model": "antigravity-cli",
+      "executable": "C:\\Users\\user\\AppData\\Local\\OpenAI\\Codex\\bin\\c38161ad8494f88c\\codex.exe",
+      "invocation_command": "codex exec --sandbox read-only - <stdin>",
+      "version": "codex-cli 0.169.0-alpha.11.1",
+      "exit_code": 0,
+      "duration_sec": 137.87,
+      "authentication_mode": "subscription",
+      "api_key_policy": "disabled",
+      "api_key_used": false,
+      "observed_fields": [
+        "executable",
+        "version",
+        "exit_code",
+        "duration_sec",
+        "invocation_command"
+      ],
+      "declared_fields": [
+        "authentication_mode",
+        "api_key_policy",
+        "api_key_used"
+      ],
+      "timestamp": "2026-11-17T14:32:35.360175"
+    },
+    {
+      "agent": "REVIEWER",
+      "provider": "google",
+      "runtime": "antigravity-cli",
+      "model": "claude-code-cli",
+      "executable": "C:\\Users\\user\\AppData\\Local\\agy\\bin\\agy.exe",
+      "invocation_command": "agy --input-format stream-json --output-format stream-json --sandbox --model gemini-4-hydrogen-high <stdin>",
+      "version": "1.5.10",
+      "exit_code": 0,
+      "duration_sec": 45.98,
+      "authentication_mode": "subscription",
+      "api_key_policy": "disabled",
+      "api_key_used": false,
+      "observed_fields": [
+        "executable",
+        "version",
+        "exit_code",
+        "duration_sec",
+        "invocation_command"
+      ],
+      "declared_fields": [
+        "authentication_mode",
+        "api_key_policy",
+        "api_key_used"
+      ],
+      "timestamp": "2026-11-17T14:33:31.938202"
+    },
+    {
+      "agent": "BUILDER",
+      "provider": "openai",
+      "runtime": "codex-cli",
+      "model": "antigravity-cli",
+      "executable": "C:\\Users\\user\\AppData\\Local\\OpenAI\\Codex\\bin\\c38161ad8494f88c\\codex.exe",
+      "invocation_command": "codex exec --sandbox read-only - <stdin>",
+      "version": "codex-cli 0.169.0-alpha.11.1",
+      "exit_code": 0,
+      "duration_sec": 29.72,
+      "authentication_mode": "subscription",
+      "api_key_policy": "disabled",
+      "api_key_used": false,
+      "observed_fields": [
+        "executable",
+        "version",
+        "exit_code",
+        "duration_sec",
+        "invocation_command"
+      ],
+      "declared_fields": [
+        "authentication_mode",
+        "api_key_policy",
+        "api_key_used"
+      ],
+      "timestamp": "2026-11-17T14:34:22.484117"
+    },
+    {
+      "agent": "REVIEWER",
+      "provider": "google",
+      "runtime": "antigravity-cli",
+      "model": "claude-code-cli",
+      "executable": "C:\\Users\\user\\AppData\\Local\\agy\\bin\\agy.exe",
+      "invocation_command": "agy --input-format stream-json --output-format stream-json --sandbox --model gemini-4-hydrogen-high <stdin>",
+      "version": "1.5.10",
+      "exit_code": 0,
+      "duration_sec": 30.166,
+      "authentication_mode": "subscription",
+      "api_key_policy": "disabled",
+      "api_key_used": false,
+      "observed_fields": [
+        "executable",
+        "version",
+        "exit_code",
+        "duration_sec",
+        "invocation_command"
+      ],
+      "declared_fields": [
+        "authentication_mode",
+        "api_key_policy",
+        "api_key_used"
+      ],
+      "timestamp": "2026-11-17T14:35:03.340692"
+    }
+  ]
+}

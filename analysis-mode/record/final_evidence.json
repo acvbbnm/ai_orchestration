@@ -1,0 +1,12 @@
+{
+  "reasons": [],
+  "worktree": "PRESENT",
+  "worktree_path": "C:\\Users\\user\\Desktop\\프로젝트\\director-lab\\.director_worktrees\\RUN-261117232513-2D1EC4F77CE54D67AAA6656D2B45733E",
+  "order_paths": "PASS",
+  "canonical_containment": "PASS",
+  "baseline": "PREEXISTING_FAILURES",
+  "verification": "PASS",
+  "regression": "PASS",
+  "head_decision": "FAIL",
+  "reviewer_verdict": "changes_required"
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "attempt": 1,
+    "provider": "ANTHROPIC",
+    "category": "UNKNOWN",
+    "error": "BUILDER_EXCEPTION: Expecting value: line 1 column 2668 (char 2667)"
+  }
+]
