@@ -1,6 +1,6 @@
 # analysis-mode — AI 협업 개발 기록
 
-> 수확 시각: 2026-11-18 00:15 · 런: `RUN-261117232513-2D1EC4F77CE54D67AAA6656D2B45733E` · 미션: `MSN-261117232513-C1633576`
+> 수확 시각: 2026-11-18 00:17 · 런: `RUN-261117232513-2D1EC4F77CE54D67AAA6656D2B45733E` · 미션: `MSN-261117232513-C1633576`
 > 프로필: **quick** · 미션 상태: **INCOMPLETE** · 최종 판정: **FAIL**
 
 ## 🎯 목표 (HEAD가 받은 지시)
@@ -34,7 +34,8 @@ IDA Pro MCP 기반 analysis 모드의 ANALYST 어댑터, Finding 스키마, 분�
 ```
 codex exec --sandbox read-only - <stdin>
 ```
-- 주입된 컨텍스트 파일 수: **13개** · 프롬프트 크기: **90456자** · 시도 횟수: **[]**
+- 주입된 컨텍스트 파일 수: **13개** · 프롬프트 크기: **90456자** · 시도 횟수: **1**
+- **모델 플래그(--model): 없음 → CLI 기본 모델** · 실제 실행 바이너리: **codex** _(의도=claude와 다르면 failover 발생)_
 - 생략된 파일(omitted, 너무 커서 제외): 없음
 
 ### 3) REVIEWER (antigravity / gemini-hydrogen) — 독립 검수
