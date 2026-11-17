@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDA 데이터베이스
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# 로그/임시
+*.log
+*.tmp
