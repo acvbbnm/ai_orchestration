@@ -11,6 +11,7 @@
 | 실험 대상 | 오픈소스 오케스트레이터 `ai-dev-director` (HEAD=Codex, BUILDER=Claude, REVIEWER=Antigravity) |
 | 실험 과제 | director에게 **director 자신을 고치게** 함 — "IDA Pro MCP를 쓰는 analysis 모드 추가" (도그푸딩) |
 | 개념 출처 | 보스턴빌더「[하네스·루프·그래프 엔지니어링? 비개발자도 20분 안에 완벽히 이해하기](https://www.youtube.com/watch?v=uKbw2Lfn3wI)」(2026-11-04) |
+| 사용한 오픈소스 | [ai-dev-director](https://github.com/digilogd-cmd/ai-dev-director) v3.1.8 (MIT) · [ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) 2.0.0 (MIT) · [Codex CLI](https://github.com/openai/codex) 0.169.0 (Apache-2.0) 외 — 전체 목록·라이선스는 [6장](06_사용한_오픈소스와_라이선스.md) |
 
 ![실제 런 타임라인](assets/diagrams/03_timeline.png)
 
@@ -28,6 +29,7 @@
 | 3 | [실험 기록과 실패 지점](03_실험기록과_실패지점.md) | 무엇을 실험했고 어디서 왜 실패했나? (16개 실패를 층위별로) | 실패 지점 지도 · 타임라인 · 증거 캡처 |
 | 4 | [**AS-IS → TO-BE 리포트**](04_AS-IS_TO-BE_리포트.md) | 핵심 인사이트는? 어떤 과제를 풀어 어떤 구조로 가야 하나? | **AS-IS 구조도 · TO-BE 구조도 · 전환 로드맵** |
 | 5 | [AI 도구 비교와 TO-BE](05_AI툴비교와_TO-BE.md) | 지금 좋은 도구들은 TO-BE와 비교해 어떤가? 무엇을 조합하나? | 적합성 매트릭스 |
+| 6 | [사용한 오픈소스와 라이선스](06_사용한_오픈소스와_라이선스.md) | 어떤 오픈소스를 어디에 썼고, 라이선스는 무엇이며 이 레포에 무엇이 포함됐나? | 소프트웨어 스택 |
 
 **읽는 순서**: 개념이 익숙하면 **4번 리포트 → 3번 → 2번** 순으로 거꾸로 읽어도 된다. 4번이 모든 인사이트의 결론이다.
 

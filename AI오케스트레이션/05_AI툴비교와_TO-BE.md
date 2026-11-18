@@ -3,7 +3,7 @@
 > 4장의 TO-BE 요구사항을 기준으로 지금 쓸 수 있는 도구들을 비교하고, TO-BE의 각 칸을 어떤 도구로 채울지 정한다.
 > ⚠️ 2026-11 기준. **직접 사용/실험**한 도구와 **문서·자료 조사**만 한 도구를 구분해 표시했다. 조사 항목은 실제 도입 전에 공식 문서로 확인해야 한다.
 
-[← 4. AS-IS → TO-BE 리포트](04_AS-IS_TO-BE_리포트.md) · [목차](README.md)
+[← 4. AS-IS → TO-BE 리포트](04_AS-IS_TO-BE_리포트.md) · [목차](README.md) · [다음: 6. 사용한 오픈소스 →](06_사용한_오픈소스와_라이선스.md)
 
 ---
 
@@ -96,4 +96,4 @@
 - Claude Squad: https://github.com/smtg-ai/claude-squad · Windows(tmux) 이슈: https://github.com/smtg-ai/claude-squad/issues/275
 - wmux: https://dev.to/wong2kim/wmux-run-claude-code-codex-and-gemini-cli-side-by-side-on-windows-pkg
 
-[← 4. AS-IS → TO-BE 리포트](04_AS-IS_TO-BE_리포트.md) · [목차](README.md)
+[← 4. AS-IS → TO-BE 리포트](04_AS-IS_TO-BE_리포트.md) · [목차](README.md) · [다음: 6. 사용한 오픈소스 →](06_사용한_오픈소스와_라이선스.md)
