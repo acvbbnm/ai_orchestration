@@ -11,7 +11,7 @@ director는 실행 기록을 **엔진 폴더(`ai-dev-director-inspect/runs/`, `d
 ## 1) harvest.py — 결과물 수확(아카이브)
 
 하나의 RUN을 받아서 `Desktop/프로젝트/<name>/` 로 모으고 git commit 한다.
-성공/실패 상관없이 수확한다(실패한 실험도 "AI 협업 과정" 포트폴리오 가치가 있음).
+성공/실패 상관없이 수확한다(실패한 실행도 원인 분석 자료가 됨).
 
 ```bash
 python tools/harvest.py --list                      # 수확 가능한 런 목록 + 상태
