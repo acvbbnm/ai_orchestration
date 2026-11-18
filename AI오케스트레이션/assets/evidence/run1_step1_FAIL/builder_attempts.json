@@ -1,0 +1,14 @@
+[
+  {
+    "attempt": 1,
+    "provider": "ANTHROPIC",
+    "category": "UNKNOWN",
+    "error": "BUILDER_EXCEPTION: Invalid control character at: line 1 column 11155 (char 11154)"
+  },
+  {
+    "attempt": 1,
+    "provider": "ANTHROPIC",
+    "category": "UNKNOWN",
+    "error": "BUILDER_EXCEPTION: Invalid control character at: line 1 column 945 (char 944)"
+  }
+]

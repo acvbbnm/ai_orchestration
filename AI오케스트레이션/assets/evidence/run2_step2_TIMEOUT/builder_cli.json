@@ -1,0 +1,55 @@
+{
+  "executable": "C:\\Users\\user\\AppData\\Local\\OpenAI\\Codex\\bin\\c38161ad8494f88c\\codex.exe",
+  "invocation": "codex exec --sandbox read-only - <stdin>",
+  "started_at": "2026-11-17T15:29:31.539379",
+  "ended_at": "2026-11-17T15:32:32.331168",
+  "duration_sec": 180.483,
+  "exit_code": 1,
+  "attempt_number": 2,
+  "outcome": "FAILED",
+  "error": "TIMEOUT: OPENAI: NO_OUTPUT_TIMEOUT: No output for 180s",
+  "retryable": true,
+  "retry_reason": "TIMEOUT: OPENAI: NO_OUTPUT_TIMEOUT: No output for 180s",
+  "attempts": [
+    {
+      "executable": "C:\\Users\\user\\AppData\\Local\\OpenAI\\Codex\\bin\\c38161ad8494f88c\\codex.exe",
+      "invocation": "codex exec --sandbox read-only - <stdin>",
+      "started_at": "2026-11-17T15:26:30.382484",
+      "ended_at": "2026-11-17T15:29:31.407220",
+      "duration_sec": 180.682,
+      "exit_code": 1,
+      "attempt_number": 1,
+      "outcome": "FAILED",
+      "error": "TIMEOUT: OPENAI: NO_OUTPUT_TIMEOUT: No output for 180s",
+      "retryable": true,
+      "retry_reason": null
+    },
+    {
+      "executable": "C:\\Users\\user\\AppData\\Local\\OpenAI\\Codex\\bin\\c38161ad8494f88c\\codex.exe",
+      "invocation": "codex exec --sandbox read-only - <stdin>",
+      "started_at": "2026-11-17T15:29:31.539379",
+      "ended_at": "2026-11-17T15:32:32.331168",
+      "duration_sec": 180.483,
+      "exit_code": 1,
+      "attempt_number": 2,
+      "outcome": "FAILED",
+      "error": "TIMEOUT: OPENAI: NO_OUTPUT_TIMEOUT: No output for 180s",
+      "retryable": true,
+      "retry_reason": "TIMEOUT: OPENAI: NO_OUTPUT_TIMEOUT: No output for 180s"
+    }
+  ],
+  "output": "",
+  "context_files": [
+    "docs/IDA_ANALYSIS_VERIFICATION.md",
+    "tests/test_ida_analysis_contract.py",
+    "README.md",
+    "agents/__init__.py",
+    "agents/antigravity_builder.py",
+    "agents/claude_analyst.py",
+    "agents/google_roles.py",
+    "agents/head.py",
+    "core/__init__.py",
+    "docs/DASHBOARD_WORKSPACE_V2.md"
+  ],
+  "execution_duration_sec": 361.16499999999996
+}

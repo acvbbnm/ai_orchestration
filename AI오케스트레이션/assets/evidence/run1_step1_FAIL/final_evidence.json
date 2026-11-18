@@ -1,0 +1,15 @@
+{
+  "reasons": [
+    "BASELINE_FAILED",
+    "VERIFICATION_FAILED"
+  ],
+  "worktree": "PRESENT",
+  "worktree_path": "C:\\Users\\user\\Desktop\\프로젝트\\director-lab\\.director_worktrees\\RUN-261118000344-7D0E90467FDB4707A8F55ABC46298E2C",
+  "order_paths": "PASS",
+  "canonical_containment": "PASS",
+  "baseline": "FAIL",
+  "verification": "FAIL",
+  "regression": "MISSING",
+  "head_decision": "FAIL",
+  "reviewer_verdict": "pass"
+}

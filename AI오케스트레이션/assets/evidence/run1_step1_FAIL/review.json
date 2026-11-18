@@ -1,0 +1,7 @@
+{
+  "verdict": "pass",
+  "p0": [],
+  "p1": [],
+  "p2": [],
+  "summary": "All acceptance criteria in the ORDER are satisfied within allowed_paths without modifying protected_paths or overwriting the pre-existing schemas/finding.py. agents/ida_analyst.py implements IdaAnalyst with shell=False argv, --allowedTools including mcp__plugin_ida-pro-mcp_idalib__* and Read, read-only static analysis prompt constraints, and structured IdaAnalystError codes; core/ida_analysis_cli.py validates inputs before external calls and outputs validated Finding JSON with nonzero exit codes on errors; tests/test_ida_analysis.py isolates subprocess calls via FakeRunner/StubAnalyst and verifies tools, spaced paths, input validation, Finding boundaries, and error codes; docs/IDA_ANALYSIS_MVP.md documents usage, dependencies, MCP setup, output/error formats, testing, failure triage, and deferred integration. In the supplied verification run (123 passed, 1 failed, 602 deselected), the sole failure is the documented pre-existing tests/test_v300i_failure_learning_loop.py::test_d_reviewer_findings_land_in_research_memory originating in core/research_prompts.py outside allowed_paths."
+}
