@@ -1,0 +1,17 @@
+2026-11-18 00:19:34,364 [INFO] Starting Run RUN-261118001934-9CAA95CE704140769528A50D089EB9DE for project C:\Users\user\Desktop\프로젝트\director-lab with goal: 이전 분석 구현을 보존하면서 외부 호출 없는 동작 테스트와 기준선 비교로 검증 범위를 확정하고, 직접 CLI 통합에 필요한 변경 지점을 문서화한다.
+2026-11-18 00:19:35,754 [INFO] State -> PLANNING
+2026-11-18 00:19:35,776 [INFO] State -> ORDER_READY
+2026-11-18 00:19:37,196 [INFO] Isolated worktree created at C:\Users\user\Desktop\프로젝트\director-lab\.director_worktrees\RUN-261118001934-9CAA95CE704140769528A50D089EB9DE, branch: RUN-261118001934-9CAA95CE704140769528A50D089EB9DE
+2026-11-18 00:19:37,336 [INFO] [Baseline Gate] Running tests on clean worktree before builder execution...
+2026-11-18 00:19:57,694 [WARNING] [HEAD proxy] BASELINE_PREEXISTING_FAILURES: Test: FAIL; failing: tests/test_v300i_failure_learning_loop.py::test_d_reviewer_findings_land_in_research_memory
+2026-11-18 00:19:57,704 [INFO] State -> BUILDING
+2026-11-18 00:25:09,651 [INFO] State -> VERIFYING
+2026-11-18 00:25:10,190 [INFO] [HEAD proxy] waived on the user's behalf: Max diff lines exceeded: 512 > 500
+2026-11-18 00:25:28,098 [INFO] State -> REVIEWING
+2026-11-18 00:25:54,851 [INFO] State -> DECIDING
+2026-11-18 00:26:20,221 [INFO] State -> BUILDING (automatic correction round 1)
+2026-11-18 00:26:25,162 [WARNING] [HEAD proxy] Builder attempt 1/3 on ANTHROPIC failed (UNKNOWN): BUILDER_EXCEPTION: ANTHROPIC CLI exit 1: {"is_error":true,"duration_api_ms":0,"num_turns":1,"stop_reason":"stop_sequence","session_id":"95f3bc09-28fa-49e9-9787-8b10fbf198fb","total_cost_usd":0,"usage"
+2026-11-18 00:26:29,644 [WARNING] [HEAD proxy] Builder attempt 2/3 on ANTHROPIC failed (UNKNOWN): BUILDER_EXCEPTION: ANTHROPIC CLI exit 1: {"is_error":true,"duration_api_ms":0,"num_turns":1,"stop_reason":"stop_sequence","session_id":"a8956016-71c5-4532-ad7f-b110d1e6b179","total_cost_usd":0,"usage"
+2026-11-18 00:26:29,646 [WARNING] [FAILOVER] BUILDING: BUILDER ANTHROPIC -> OPENAI (BUILDER_EXCEPTION: ANTHROPIC CLI exit 1: {"is_error":true,"duration_api_ms":0,"num_turns":1,"stop_reason":"stop_sequence","session_id":"a8956016-71c5-4532-ad7f-b110d1e6b179","total_cost_usd":0,"usage")
+2026-11-18 00:32:32,496 [WARNING] [HEAD proxy] Builder attempt 3/3 on OPENAI failed (TIMEOUT): BUILDER_EXCEPTION: TIMEOUT: OPENAI: NO_OUTPUT_TIMEOUT: No output for 180s
+2026-11-18 00:32:32,502 [ERROR] Builder failed after 3 attempt(s) across ANTHROPIC, OPENAI: BUILDER_EXCEPTION: TIMEOUT: OPENAI: NO_OUTPUT_TIMEOUT: No output for 180s

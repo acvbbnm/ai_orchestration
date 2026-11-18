@@ -14,3 +14,6 @@ __pycache__/
 # 로그/임시
 *.log
 *.tmp
+
+# 예외: 문서의 증적으로 쓰는 실행 로그는 보관
+!AI오케스트레이션/assets/evidence/**/run.log
