@@ -6,7 +6,6 @@
 | 항목 | 내용 |
 |---|---|
 | 핵심 질문 | AI에게 일을 잘 시키려면 어떤 구조가 필요한가? 여러 AI를 엮으면 실제로 더 잘하는가? 안 된다면 어디서 막히는가? |
-| 기간 | 2026-11-17 ~ 11-18 |
 | 환경 | Windows 11 · GPT / Claude / Gemini **구독 CLI** (API 과금 없음) · IDA Pro MCP |
 | 실험 대상 | 오픈소스 오케스트레이터 `ai-dev-director` (HEAD=Codex, BUILDER=Claude, REVIEWER=Antigravity) |
 | 실험 과제 | director에게 **director 자신을 고치게** 함 — "IDA Pro MCP를 쓰는 analysis 모드 추가" (도그푸딩) |
@@ -51,9 +50,6 @@
 | [`assets/evidence/`](assets/evidence/) | 두 런의 원본 JSON·run.log | `runs/RUN-*/`에서 그대로 복사 (가공 없음) |
 | [`assets/diagrams/`](assets/diagrams/) | 개념도·구조도 19장 | 실험 데이터를 바탕으로 직접 작성 (HTML/mermaid → PNG) |
 | [`../analysis-mode/`](../analysis-mode/) | 오케스트레이션이 만든 실제 결과물 + REPORT | `tools/harvest.py`로 수확 |
-
-## 정정 기록
-- (v1 → v2) v1의 3장에서 "검증 때 전체 테스트가 돌았다"고 적었으나 **틀렸다.** 실제로는 `-k` 키워드 필터가 적용돼 **602개가 제외**됐고, 무관한 기존 실패 테스트 이름(`test_d_reviewer_`**`findings`**`_…`)이 키워드 `finding`에 **우연히 걸려** 포함된 것이다. 원본: [`verification.json`](assets/evidence/run1_step1_FAIL/verification.json)
 
 ## 관련 산출물
 - [`../tools/harvest.py`](../tools/harvest.py) — 실행 기록을 사람이 읽는 리포트로 수확 + git 커밋
